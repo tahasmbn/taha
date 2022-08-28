@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Vazir",sans-serif,Arial, Helvetica;
+    line-height: 1.7em;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+    font-size: 0.5cm;
+}
+.py-1 {
+    padding: 10px 0;
+  }
+  .py-2 {
+    padding: 20px 0;
+  }
+  .py-3 {
+    padding: 30px 0;
+  }
+#navbar{
+    background: #383838;
+    color: #ff0909;
+    overflow: auto;
+}
+#navbar a{
+color: #ff7919;
+}
+#navbar .logo{
+    float: left;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+#navbar ul li{
+    float: right;
+    margin-right: 8px;
+}
+#navbar ul li a{
+    display: block;
+    padding:15px 20px;
+    text-align: center;
+}
+a{
+    color: #7be495;
+    text-decoration: none;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    border-radius: 5px;
+    background:#ff7919;
+    color: #ffffff;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+    text-align: right;
+}
+#showcase{
+ background: url("../images/dark_tint.png"),url("../images/head.jpg") no-repeat center center/cover;   
+ height: 100vh;
+}
+#showcase .showcase-content{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+.btn{
+   display: inline-block;
+   font-size: 18px;
+   color: #ff7919;
+   background: #434343;
+   padding:  13px 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   font-family: "Vazir";
+
+}
+.btn:hover{
+    color: #ffffff;
+    background: #ff7919;
+}
+/*Home*/
+#home-info{
+    width: 100%;
+    height: 400px;
+
+}
+#home-info .info-img{
+float: left;
+    width: 50%;
+background: url("../images/dark_tint.png"),url("../images/photo-1.jpg") no-repeat ;
+background-size: cover;
+height: 100%; 
+}
+
+#home-info .info-content{
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+    text-align: justify;
+    direction: rtl;
+}
+
+
+element.style {
+}
+#home-info .info-content {
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.bg-dark {
+    background: #242424;
+    color: #ff8400;
+}
+/*features*/
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+.bg-light{
+    background: #fff;
+    color: #434343;
+}
+.bg-primary{
+    background: #252525;
+    color: #ff8630;
+}
+.clr{
+    clear: both;
+}
+
+
+/*-------------about us --------------*/
+#about-info{
+    padding-top:30px ;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    padding-top: 6%;
+    text-align: center;
+}
+
+/*----------------------------------------------*/
+#tesimonials{
+    height: 100%;
+    background: url("../images/bg.jpg") no-repeat center center/cover;
+    padding-top: 100px;
+    text-align: right;
+}
+#tesimonials h2{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#tesimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+#tesimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff7a32;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus{
+    border-color: #ec3333;
+    background: #fb733e;
+}
+#contact-form textarea:focus{
+    background: #fb733e;
+    border: #ff0000;
+    opacity: 0.9 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
